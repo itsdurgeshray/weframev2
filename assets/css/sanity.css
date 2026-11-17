@@ -1,0 +1,100 @@
+/* ===== Expertise Detail (Sanity) ===== */
+.x-hero{padding-top:64px}
+.center-glow::before{transform:translateX(-50%);left:50%}
+.x-hero-in{position:relative;z-index:1;display:grid;justify-items:center;gap:20px;text-align:center}
+.x-hero-in .h2-md{max-width:640px}
+.x-hero-in .body{max-width:480px}
+.eyebrow.cat-aqua{background:rgba(117,242,255,.10)}
+.eyebrow.cat-aqua::before{background:var(--aqua-50);opacity:.55}
+.x-ctas{display:flex;gap:10px;margin-top:6px}
+.x-ctas .btn{min-width:194px}
+
+/* pricing */
+.pricing-wrap{position:relative;z-index:1;margin-top:64px}
+.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;overflow:visible;margin:0;padding:0}
+.plan{padding:16px;border-radius:var(--r-panel);display:flex;flex-direction:column;gap:6px;min-height:476px;justify-content:flex-start}
+.plan .eyebrow{align-self:flex-start;margin-bottom:12px}
+.plan .price{margin:0;font:500 28px/1.15 var(--serif)}
+.plan .sub{margin:0;font-size:16px;color:var(--t3)}
+.checks{list-style:none;margin:20px 0 24px;padding:20px 0 0;border-top:1px solid rgba(255,255,255,.12);display:grid;gap:14px}
+.checks li{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--t2)}
+.checks li::before{content:"";flex:0 0 14px;height:14px;border-radius:50%;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2375F2FF' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='m8 12.5 2.6 2.6L16 9.6'/%3E%3C/svg%3E") center/contain no-repeat}
+.plan .btn{margin-top:auto}
+.plan.feat{background:radial-gradient(110% 55% at 50% 0%,rgba(117,242,255,.55),rgba(0,129,143,.25) 45%,rgba(0,0,0,0) 80%),linear-gradient(180deg,rgba(0,28,31,.92),rgba(13,13,13,.92));
+  box-shadow:var(--sh-card),0 0 30px rgba(117,242,255,.10)}
+.plan.feat::before{opacity:.55}
+.price-seg{display:none}
+
+.x-logos{margin-top:96px}
+.x-logos .marquee-track{gap:72px}
+.x-logos .marquee-track img{height:28px}
+
+/* portfolio */
+.pf-rail{--rail-pad:max(var(--gutter),calc((100vw - var(--content))/2));padding-inline:var(--rail-pad);scroll-padding-inline:var(--rail-pad)}
+.pf{width:400px;padding:6px 6px 12px;display:grid;gap:12px;border-radius:var(--r-card)}
+.pf-shot{display:block;aspect-ratio:388/260;border-radius:var(--r-media);overflow:hidden}
+.pf-shot img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.pf:hover .pf-shot img{transform:scale(1.03)}
+.pf-foot{display:flex;align-items:center;justify-content:space-between;padding:0 8px}
+.pf-foot .br,.cl-head .br{display:flex;align-items:center;gap:8px}
+.pf-foot .br img,.cl-head .br img{width:28px;height:28px;border-radius:7px}
+.pf-foot b,.cl-head b{font:600 16px/1 var(--brand)}
+@media (max-width:899px){.pf-rail{--rail-pad:var(--gutter)}.pf{width:80vw;max-width:360px}}
+
+/* ask our ai */
+.askai{display:grid;grid-template-columns:1fr 1fr;gap:24px;padding:6px;align-items:stretch;
+  background:linear-gradient(90deg,rgba(0,40,45,.5),rgba(0,74,82,.45) 60%,rgba(0,129,143,.75))}
+.askai-l{padding:30px 0 30px 18px;display:grid;gap:14px;align-content:start;justify-items:start}
+.askai-l p{margin:0;font:500 14px/1.45 var(--sans);color:var(--t2);max-width:420px}
+.qs{display:grid;gap:8px;width:100%;max-width:494px;margin-top:10px}
+.qs button{height:40px;padding:0 14px;border-radius:var(--r-panel);text-align:left;font-size:14px;color:var(--t2);
+  background:rgba(0,28,31,.8);box-shadow:inset 0 0 0 1px var(--hair-row);transition:color .2s,box-shadow .2s,background .2s}
+.qs button:hover{color:#fff;background:rgba(0,64,71,.6);box-shadow:inset 0 0 0 1px rgba(117,242,255,.5)}
+.askai-r{border-radius:16px;padding:6px;display:flex;flex-direction:column;justify-content:space-between;gap:12px;
+  background:linear-gradient(180deg,rgba(1,10,11,.96),rgba(1,10,11,.9));box-shadow:inset 0 0 0 1px rgba(170,247,255,.35),0 0 26px rgba(117,242,255,.18)}
+.askai-r .summary{padding:16px}
+.askai-r .summary h4{font-size:14px}
+.askai-r .summary ul{font-size:14px}
+.askai-foot{display:grid;gap:12px;padding:0 10px 10px}
+
+/* clients */
+.clients{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.client{padding:12px;display:grid;gap:12px;border-radius:var(--r-panel)}
+.cl-head{display:flex;align-items:center;justify-content:space-between}
+.status{display:inline-flex;align-items:center;gap:6px;font:500 8px/1 var(--sans);letter-spacing:1.5px;text-transform:uppercase;color:#fff}
+.status i{width:6px;height:6px;border-radius:50%;background:#62FA83;box-shadow:0 0 8px #62FA83}
+.status.nda i{background:#F9B218;box-shadow:0 0 8px #F9B218}
+
+/* ---------- responsive ---------- */
+@media (max-width:1199px){.pricing{gap:16px}.clients{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:899px){
+  .x-hero{padding-top:28px}
+  .pricing-wrap{margin-top:40px}
+  .price-seg{display:flex;gap:4px;padding:4px;margin:0 auto 16px;width:max-content;max-width:100%;border-radius:var(--r-pill);background:rgba(255,255,255,.04);box-shadow:inset 0 0 0 1px var(--hair-2)}
+  .price-seg button{height:36px;padding:0 18px;border-radius:var(--r-pill);font:500 14px/1 var(--sans);color:var(--t3);transition:background .25s,color .25s}
+  .price-seg button[aria-pressed="true"]{background:rgba(117,242,255,.18);color:#fff;box-shadow:inset 0 0 0 1px var(--aqua-100)}
+  .pricing{display:flex;overflow-x:auto;padding:24px var(--gutter) 32px;margin:-24px calc(-1*var(--gutter)) -32px;scroll-padding-inline:var(--gutter)}
+  .pricing>*{scroll-snap-align:center}
+  .plan{width:82vw;max-width:360px;min-height:0}
+  .checks{margin:16px 0 20px;padding-top:16px}
+  .askai{grid-template-columns:1fr;background:linear-gradient(180deg,rgba(0,40,45,.55),rgba(0,74,82,.55) 55%,rgba(0,129,143,.75))}
+  .askai-l{padding:22px 12px 4px}
+  .qs{max-width:none}
+  .clients{grid-template-columns:1fr}
+}
+@media (max-width:599px){
+  .x-hero-in{gap:16px}
+  .x-hero-in .h2-md{font-size:31px;line-height:1.18}
+  .x-ctas{display:grid;grid-template-columns:1fr 1fr;width:100%;gap:8px}
+  .x-ctas .btn{min-width:0;padding:0 10px;font-size:15px}
+  .x-logos{margin-top:64px}
+  .x-logos .marquee-track{gap:44px}
+  .x-logos .marquee-track img{height:22px}
+  .askai-l .h3{font-size:24px}
+  .qs button{height:auto;min-height:44px;padding:11px 14px;line-height:1.35}
+  .askai-r{padding:4px}
+  .askai-r .summary{padding:14px 12px}
+  .askai-foot{padding:0 8px 8px}
+  .askai-foot .chip-row.scroll{margin-inline:-8px;padding-inline:8px}
+}

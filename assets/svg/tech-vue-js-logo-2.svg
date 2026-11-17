@@ -1,0 +1,23 @@
+<svg width="32" height="28" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_3395_1041)">
+<use xlink:href="#stroke0_3395_1041" fill="#41B883"/>
+<use xlink:href="#stroke0_3395_1041" fill="url(#paint0_linear_3395_1041)"/>
+<use xlink:href="#stroke1_3395_1041" fill="#34495E"/>
+<use xlink:href="#stroke1_3395_1041" fill="url(#paint1_linear_3395_1041)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_3395_1041" x1="15.9991" y1="27.7124" x2="15.9991" y2="-3.56766" gradientUnits="userSpaceOnUse">
+<stop stop-color="#AAF7FF"/>
+<stop offset="1" stop-color="#004A52"/>
+</linearGradient>
+<linearGradient id="paint1_linear_3395_1041" x1="15.9991" y1="16.627" x2="15.9991" y2="-2.14072" gradientUnits="userSpaceOnUse">
+<stop stop-color="#AAF7FF"/>
+<stop offset="1" stop-color="#004A52"/>
+</linearGradient>
+<clipPath id="clip0_3395_1041">
+<rect width="32" height="27.7127" fill="white"/>
+</clipPath>
+<path id="stroke0_3395_1041" d="M19.6941 -2.47955e-05L15.9991 6.39981L12.3042 -2.47955e-05H-0.000473022L15.9991 27.7124L31.9987 -2.47955e-05H19.6941Z"/>
+<path id="stroke1_3395_1041" d="M19.6941 -0.000177383L15.9991 6.39966L12.3042 -0.000177383H6.39937L15.9991 16.627L25.5989 -0.000177383H19.6941Z"/>
+</defs>
+</svg>

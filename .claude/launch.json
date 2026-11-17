@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wft-v2",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5213", "-d", "/Users/durgesh/Desktop/WFT/wft-v2"],
+      "port": 5213
+    }
+  ]
+}
